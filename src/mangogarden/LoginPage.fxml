@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mangogarden.LoginPageController">
+   <children>
+      <TextField fx:id="txtUserName" layoutX="202.0" layoutY="100.0" promptText="Username" style="-fx-background-color: green;" />
+      <TextField fx:id="pf" layoutX="202.0" layoutY="175.0" promptText="Password" style="-fx-background-color: green;" />
+      <Button layoutX="428.0" layoutY="46.0" mnemonicParsing="false" onAction="#buttonOwnerLoginOnClick" style="-fx-background-color: pink;" text="Login as Owner" />
+      <Label layoutX="178.0" layoutY="29.0" prefHeight="17.0" prefWidth="211.0" text="Mango Garden" />
+      <Label fx:id="lblMessage" layoutX="9.0" layoutY="100.0" prefHeight="227.0" prefWidth="186.0" />
+      <Button layoutX="428.0" layoutY="163.0" mnemonicParsing="false" onAction="#buttonWorkerLoginOnClick" style="-fx-background-color: pink;" text="Login as Worker" />
+   </children>
+</AnchorPane>
